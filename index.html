@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="contents">
+                <h2>EB Calculator</h2>
+                <p>For first 50 units Rs.0.75/unit</p>
+                <p>For next 100 units Rs.1.00/unit</p>
+                <p>For next 100 units Rs.1.30/unit</p>
+                <p>For unit above 250 Rs.0.75/unit</p>
+                    <div>
+                        <input type="text" id="input" placeholder="Enter the number units used">
+                    </div>
+                    <div>
+                        <button onclick="Ebcalc()">Calculate</button>
+                    </div>
+                    <div>
+                        <p id="show"></p>
+                    </div>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
